@@ -35,7 +35,6 @@ ul > li {
 }
 
 .children-menu li:hover a + ul {
-  color: red;
   opacity: 1;
   visibility: visible;
 }
