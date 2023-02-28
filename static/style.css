@@ -24,17 +24,7 @@ ul > li {
   position: relative;
 }
 
-.item:hover a + ul {
-  opacity: 1;
-  visibility: visible;
-}
-
-.item:hover a + ul ul {
-  opacity: 0;
-  visibility: hidden;
-}
-
-.children-menu li:hover a + ul {
+ul li:hover > .children-menu {
   opacity: 1;
   visibility: visible;
 }
